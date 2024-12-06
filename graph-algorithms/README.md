@@ -4,14 +4,10 @@
 
 This problem involves finding the K-shortest loopless paths in a directed graph from a source to a destination vertex. The first path must be the shortest, and subsequent paths are approximations.
 
----
-
 ## Objectives
 
 - Implement a custom algorithm to solve the K-shortest paths problem.
 - Use efficient data structures for graph traversal.
-
----
 
 ## Problem Description
 
@@ -24,8 +20,6 @@ This problem involves finding the K-shortest loopless paths in a directed graph 
 ### Output Format (`output.txt`)
 
 - List of K-shortest paths and their costs.
-
----
 
 ## Example
 
@@ -49,8 +43,6 @@ C H 3
 1. **Path 1**: `C→E→F→H` - Cost = 5
 2. **Path 2**: `C→E→G→H` - Cost = 7
 3. **Path 3**: `C→D→F→H` - Cost = 8
-
----
 
 ## Implementation Requirements
 
